@@ -6,9 +6,31 @@ Infiles, R scripts, and supplementary data files can be downloaded from https://
 
 ## Infiles
 
+SitesCSOs.csv
+metadata.csv
+TH_extra_data.txt
+diversity.metrics.csv
+results_F230R_10Aug20.csv
+results_ml-jg_10Aug20.csv
+morph_new.csv
+results_18S_v4.1.csv
+EPA_families.csv
+Freshwaterecol_Moog.csv
+Freshwater_Tachet.csv
 
 ## R Scripts
 
+To try to improve reproducibility, script libraries are loaded using groundhog.
+
+Fig1_mapped_gradients.R uses SitesCSOs.csv, metadata.csv, TH_extra_data.txt, and diversity.metrics.csv (from Fig5_hierarchical_partitioning.R) to produce Fig1_mapped_gradients.pdf .
+
+Fig2_richness.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, morph_new.csv, and results_18S_v4.1.csv to produce Fig2_richness.pdf .
+
+Fig3_PCA_NMDS.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, momrph_new.csv, SitesCSOs.csv, metadata.csv, TH_extra_data.txt, and results_18S_v4.1.csv to produce Fig3_PCA_NMDS.pdf as well as a suite of supporting files.
+
+Fig4_relative_abundance.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, morph_new.csv, results_18S_v4.1.csv, EPA_families.csv, Freshwaterecol_Moog.csv, and Freshwater_Tachet.csv to produce Fig4_relative_abundance.pdf.
+
+Fig5_hierarchical_partitioning.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, morph_new.csv, results_18S_v4.1.csv, metadata.csv, and TH_extra_data.txt to produce Fig5_hierarchical_partitioning.pdf and a number of supporting files.
 
 ## Supplementary data files
 
@@ -18,4 +40,4 @@ Infiles, R scripts, and supplementary data files can be downloaded from https://
 Robinson, C.V., Porter, T.M., McGee, K.M., McCusker, M., Wright, M.T.G., Hajibabaei, M. 2022.  Multi-marker DNA metabarcoding detects suites of environmental gradients from an urban harbour.  Scientific Reports, Accepted.
 
 
-Last updated: May 5, 2022
+Last updated: May 6, 2022
