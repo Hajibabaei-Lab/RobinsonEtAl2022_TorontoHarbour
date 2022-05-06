@@ -6,21 +6,21 @@ Infiles, R scripts, and supplementary data files can be downloaded from https://
 
 ## Infiles
 
-SitesCSOs.csv
-metadata.csv
-TH_extra_data.txt
-diversity.metrics.csv
-results_F230R_10Aug20.csv
-results_ml-jg_10Aug20.csv
-morph_new.csv
-results_18S_v4.1.csv
-EPA_families.csv
-Freshwaterecol_Moog.csv
-Freshwater_Tachet.csv
+SitesCSOs.csv  
+metadata.csv  
+TH_extra_data.txt  
+diversity.metrics.csv  
+results_F230R_10Aug20.csv  
+results_ml-jg_10Aug20.csv  
+morph_new.csv  
+results_18S_v4.1.csv  
+EPA_families.csv  
+Freshwaterecol_Moog.csv  
+Freshwater_Tachet.csv  
 
 ## R Scripts
 
-To try to improve reproducibility, script libraries are loaded using groundhog.
+To try to improve reproducibility, script libraries are loaded using groundhog but libraries can be loaded the usual way with only minor changes.
 
 Fig1_mapped_gradients.R uses SitesCSOs.csv, metadata.csv, TH_extra_data.txt, and diversity.metrics.csv (from Fig5_hierarchical_partitioning.R) to produce Fig1_mapped_gradients.pdf .
 
@@ -34,6 +34,11 @@ Fig5_hierarchical_partitioning.R uses results_F230R_10Aug20.csv, results_ml-jg_1
 
 ## Supplementary data files
 
+FigS1_resolution_rarefaction.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, results_18S_v4.1.csv, and morph_new.csv to produce FigS1_resolution_rarefaction.pdf.  
+
+FigS2_predictor_correlations.R uses metadata.csv and TH_extra_data.txt to produce FigS2_predictor_correlations.pdf.
+
+TableS3_checklist.R uses morph_new.csv, results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, and results_18S_v4.1.csv to produce checklists that were compiled into Table S3 (excel spreadsheet).
 
 ## References
 
