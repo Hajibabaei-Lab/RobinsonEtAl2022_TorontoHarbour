@@ -30,7 +30,7 @@ Fig3_PCA_NMDS.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, momrp
 
 Fig4_relative_abundance.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, morph_new.csv, results_18S_v4.1.csv, EPA_families.csv, Freshwaterecol_Moog.csv, and Freshwater_Tachet.csv to produce Fig4_relative_abundance.pdf.
 
-Fig5_hierarchical_partitioning.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, morph_new.csv, results_18S_v4.1.csv, metadata.csv, and TH_extra_data.txt to produce Fig5_hierarchical_partitioning.pdf and a number of supporting files.
+Fig5_hierarchical_partitioning.R uses results_F230R_10Aug20.csv, results_ml-jg_10Aug20.csv, morph_new.csv, results_18S_v4.1.csv, metadata.csv, and TH_extra_data.txt to produce Fig5_hierarchical_partitioning.pdf, the results summarized in Table S5 and Table S6, and a couple other supporting files.
 
 ## Supplementary data files
 
@@ -45,4 +45,4 @@ TableS3_checklist.R uses morph_new.csv, results_F230R_10Aug20.csv, results_ml-jg
 Robinson, C.V., Porter, T.M., McGee, K.M., McCusker, M., Wright, M.T.G., Hajibabaei, M. 2022.  Multi-marker DNA metabarcoding detects suites of environmental gradients from an urban harbour.  Scientific Reports, Accepted.
 
 
-Last updated: May 6, 2022
+Last updated: May 12, 2022
