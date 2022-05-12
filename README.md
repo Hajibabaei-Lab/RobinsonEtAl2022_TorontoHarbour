@@ -20,7 +20,7 @@ Freshwater_Tachet.csv
 
 ## R Scripts
 
-To try to improve reproducibility, script libraries are loaded using groundhog but libraries can be loaded the usual way with only minor changes.
+To try to improve reproducibility, script libraries are loaded using groundhog but libraries but if you prefer libraries can be loaded the usual way with minor changes.  Running these scripts in order ensures that the necessary directories are set up for subsequent scripts.
 
 Fig1_mapped_gradients.R uses SitesCSOs.csv, metadata.csv, TH_extra_data.txt, and diversity.metrics.csv (from Fig5_hierarchical_partitioning.R) to produce Fig1_mapped_gradients.pdf .
 
