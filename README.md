@@ -2,7 +2,7 @@
 
 This repository contains the dataflow and scripts used to process the COI and 18S metabarcode reads in the paper Robinson et al., 2022 (Scientific Reports, Accepted).
 
-Citation
+## Citation
 
 Robinson, C. V., Porter, T. M., McGee, K. M., McCusker, M., Wright, M. T. G., & Hajibabaei, M. (2022). Multi-marker DNA metabarcoding detects suites of environmental gradients from an urban harbour. BioRxiv, 35. doi: https://doi.org/10.1101/2022.04.17.488590  
 
